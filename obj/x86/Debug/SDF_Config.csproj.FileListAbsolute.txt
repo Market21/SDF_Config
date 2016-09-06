@@ -5,3 +5,4 @@ c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\
 c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.csproj.GenerateResource.Cache
 c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.exe
 c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.pdb
+C:\Users\Damien\Documents\Visual Studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.csprojResolveAssemblyReference.cache

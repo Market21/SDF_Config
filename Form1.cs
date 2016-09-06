@@ -20,5 +20,50 @@ namespace SDF_Config
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void but_reduit_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void but_charger_sdf_Click(object sender, EventArgs e)
+        {
+            // Displays an OpenFileDialog so the user can select a Cursor.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.Filter = "SDF Files|*.sdf";
+            openFileDialog1.Title = "Select a SDF File";
+
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                System.IO.StreamReader sr = new
+                System.IO.StreamReader(openFileDialog1.FileName);
+                MessageBox.Show(sr.ReadToEnd());
+                sr.Close();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Displays an OpenFileDialog so the user can select a Cursor.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.Title = "Select a File";
+
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                System.IO.StreamReader sr = new
+                System.IO.StreamReader(openFileDialog1.FileName);
+                MessageBox.Show(sr.ReadToEnd());
+                sr.Close();
+            }
+        }
+
+
+
+
     }
 }
