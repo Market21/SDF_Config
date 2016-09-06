@@ -15,5 +15,10 @@ namespace SDF_Config
         {
             InitializeComponent();
         }
+
+        private void but_quitter_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
