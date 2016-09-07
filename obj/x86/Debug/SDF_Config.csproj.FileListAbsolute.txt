@@ -6,3 +6,11 @@ c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\
 c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.exe
 c:\users\damien\documents\visual studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.pdb
 C:\Users\Damien\Documents\Visual Studio 2010\Projects\SDF_Config\SDF_Config\obj\x86\Debug\SDF_Config.csprojResolveAssemblyReference.cache
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.exe
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.pdb
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\bin\Debug\SDF_Config.exe
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\bin\Debug\SDF_Config.pdb
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.csprojResolveAssemblyReference.cache
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.FormMain.resources
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.Properties.Resources.resources
+C:\Users\dmarchetto\Documents\Visual Studio 2010\Projects\SDF_Config\obj\x86\Debug\SDF_Config.csproj.GenerateResource.Cache
