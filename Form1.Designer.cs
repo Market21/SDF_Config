@@ -40,6 +40,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -49,9 +50,10 @@
             // 
             this.but_quit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.but_quit.FlatAppearance.BorderSize = 0;
+            this.but_quit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
             this.but_quit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.but_quit.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_quit.Location = new System.Drawing.Point(728, 10);
+            this.but_quit.Location = new System.Drawing.Point(974, 10);
             this.but_quit.Margin = new System.Windows.Forms.Padding(1);
             this.but_quit.Name = "but_quit";
             this.but_quit.Size = new System.Drawing.Size(40, 40);
@@ -63,10 +65,11 @@
             // 
             // but_reduit
             // 
+            this.but_reduit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.but_reduit.FlatAppearance.BorderSize = 0;
             this.but_reduit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.but_reduit.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_reduit.Location = new System.Drawing.Point(687, 10);
+            this.but_reduit.Location = new System.Drawing.Point(896, 9);
             this.but_reduit.Margin = new System.Windows.Forms.Padding(0);
             this.but_reduit.Name = "but_reduit";
             this.but_reduit.Size = new System.Drawing.Size(40, 40);
@@ -99,7 +102,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 54);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(756, 194);
+            this.groupBox1.Size = new System.Drawing.Size(353, 894);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fichier SDF";
@@ -107,7 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(501, 16);
+            this.label3.Location = new System.Drawing.Point(6, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(139, 13);
             this.label3.TabIndex = 8;
@@ -118,10 +121,10 @@
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalExtent = 1;
-            this.listBox1.Location = new System.Drawing.Point(504, 32);
+            this.listBox1.Location = new System.Drawing.Point(6, 118);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(246, 143);
+            this.listBox1.Size = new System.Drawing.Size(341, 767);
             this.listBox1.TabIndex = 7;
             // 
             // label_name_sdf
@@ -138,9 +141,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(10, 254);
+            this.groupBox2.Location = new System.Drawing.Point(621, 54);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(756, 184);
+            this.groupBox2.Size = new System.Drawing.Size(315, 194);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fichier de noms";
@@ -170,9 +173,9 @@
             // 
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(10, 444);
+            this.groupBox3.Location = new System.Drawing.Point(621, 254);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(756, 205);
+            this.groupBox3.Size = new System.Drawing.Size(315, 205);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Exécuter";
@@ -188,12 +191,29 @@
             this.button3.Text = "Exécuter";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(933, 9);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(40, 40);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "¤";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(778, 661);
+            this.ClientSize = new System.Drawing.Size(1024, 960);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -201,6 +221,7 @@
             this.Controls.Add(this.but_quit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SDF_Config";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -225,6 +246,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

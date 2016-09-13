@@ -51,17 +51,35 @@ namespace SDF_Config
                 XElement xmtTree = XElement.Load(sFileSDFName);
 
 
-                IEnumerable<XElement> de =
-                    from el in xmtTree.Elements("Section")
-                        //doc.Descendants("Channel")
-                    //where (string)el.Element("Name") == "Report"
-                    //where (string)el.Attribute("Name") == "User Channels"
+                var user_list =
+                    from el in xmtTree.Descendants("Section")
+                    where el.Attribute("Name").Value == "User Channels"
                     select el;
 
-                foreach (XElement item in de)
+                var user_channels_list =
+                    from el in user_list.Descendants("Section")
+                    where el.Attribute("Name").Value == "Report"
+                    select el;
+
+                var user_channels_report_list =
+                    from el in user_channels_list.Descendants("Channel")
+                    select el;
+
+                /*
+                var user_channels_report_list_sorted =
+                    from el in user_channels_report_list
+                    orderby el descending
+                    select el;
+                */
+
+                List<User_Channel> userlist = new List<User_Channel> { };
+
+                foreach (XElement item in user_channels_report_list)
                 {
-                    listBox1.Items.Add(item.Attribute("Name").Value);
+                    userlist.Add(new User_Channel() { Name = item.Attribute("Name").Value, Description = "", Valeur_Defaut = "" });
                 }
+
+
                 
 
 
@@ -108,6 +126,11 @@ namespace SDF_Config
                 MessageBox.Show(sr.ReadToEnd());
                 sr.Close();
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
         }
 
 
