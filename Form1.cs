@@ -80,6 +80,12 @@ namespace SDF_Config
                 }
 
 
+
+                foreach (User_Channel item in userlist)
+                {
+                    listBox1.Items.Add(item.Name);
+                }
+                //listBox1.Items.Add(userlist);
                 
 
 
