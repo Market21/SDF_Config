@@ -36,11 +36,22 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label_name_sdf = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.but_fusion = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.tb_name_us = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tb_desc_us = new System.Windows.Forms.TextBox();
+            this.tb_valdef_us = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.label_max_char_us = new System.Windows.Forms.Label();
+            this.but_ecrire_sdf = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -130,7 +141,7 @@
             // label_name_sdf
             // 
             this.label_name_sdf.AutoSize = true;
-            this.label_name_sdf.Location = new System.Drawing.Point(130, 41);
+            this.label_name_sdf.Location = new System.Drawing.Point(6, 89);
             this.label_name_sdf.Name = "label_name_sdf";
             this.label_name_sdf.Size = new System.Drawing.Size(73, 13);
             this.label_name_sdf.TabIndex = 6;
@@ -138,24 +149,24 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label_max_char_us);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.listBox2);
             this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.tb_valdef_us);
+            this.groupBox2.Controls.Add(this.tb_desc_us);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.tb_name_us);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(621, 54);
+            this.groupBox2.Location = new System.Drawing.Point(371, 54);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(315, 194);
+            this.groupBox2.Size = new System.Drawing.Size(353, 894);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fichier de noms";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Fichier de noms";
             // 
             // button2
             // 
@@ -165,31 +176,34 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 54);
             this.button2.TabIndex = 6;
-            this.button2.Text = "Charger liste";
+            this.button2.Text = "Ajouter User Channel";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.but_ecrire_sdf);
+            this.groupBox3.Controls.Add(this.listBox3);
+            this.groupBox3.Controls.Add(this.but_fusion);
             this.groupBox3.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(621, 254);
+            this.groupBox3.Location = new System.Drawing.Point(730, 54);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(315, 205);
+            this.groupBox3.Size = new System.Drawing.Size(284, 894);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Exécuter";
             // 
-            // button3
+            // but_fusion
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(8, 19);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 54);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Exécuter";
-            this.button3.UseVisualStyleBackColor = true;
+            this.but_fusion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.but_fusion.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_fusion.Location = new System.Drawing.Point(8, 19);
+            this.but_fusion.Name = "but_fusion";
+            this.but_fusion.Size = new System.Drawing.Size(118, 54);
+            this.but_fusion.TabIndex = 6;
+            this.but_fusion.Text = "Fusionner";
+            this.but_fusion.UseVisualStyleBackColor = true;
+            this.but_fusion.Click += new System.EventHandler(this.but_fusion_Click);
             // 
             // button1
             // 
@@ -206,6 +220,119 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // tb_name_us
+            // 
+            this.tb_name_us.Location = new System.Drawing.Point(129, 115);
+            this.tb_name_us.Name = "tb_name_us";
+            this.tb_name_us.Size = new System.Drawing.Size(218, 20);
+            this.tb_name_us.TabIndex = 8;
+            this.tb_name_us.TextChanged += new System.EventHandler(this.tb_name_us_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 89);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "User Channel";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 118);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Name";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 158);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Description";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // tb_desc_us
+            // 
+            this.tb_desc_us.Location = new System.Drawing.Point(129, 155);
+            this.tb_desc_us.Name = "tb_desc_us";
+            this.tb_desc_us.Size = new System.Drawing.Size(218, 20);
+            this.tb_desc_us.TabIndex = 12;
+            // 
+            // tb_valdef_us
+            // 
+            this.tb_valdef_us.Location = new System.Drawing.Point(129, 195);
+            this.tb_valdef_us.Name = "tb_valdef_us";
+            this.tb_valdef_us.Size = new System.Drawing.Size(218, 20);
+            this.tb_valdef_us.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(5, 198);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Valeur par défaut";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // listBox2
+            // 
+            this.listBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.HorizontalExtent = 1;
+            this.listBox2.Location = new System.Drawing.Point(6, 274);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.listBox2.Size = new System.Drawing.Size(341, 611);
+            this.listBox2.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 258);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(187, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Liste des User_Channel ajoutés";
+            // 
+            // listBox3
+            // 
+            this.listBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.HorizontalExtent = 1;
+            this.listBox3.Location = new System.Drawing.Point(8, 274);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.listBox3.Size = new System.Drawing.Size(270, 611);
+            this.listBox3.TabIndex = 15;
+            // 
+            // label_max_char_us
+            // 
+            this.label_max_char_us.AutoSize = true;
+            this.label_max_char_us.Location = new System.Drawing.Point(126, 99);
+            this.label_max_char_us.Name = "label_max_char_us";
+            this.label_max_char_us.Size = new System.Drawing.Size(67, 13);
+            this.label_max_char_us.TabIndex = 10;
+            this.label_max_char_us.Text = "40 car max";
+            this.label_max_char_us.Visible = false;
+            // 
+            // but_ecrire_sdf
+            // 
+            this.but_ecrire_sdf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.but_ecrire_sdf.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_ecrire_sdf.Location = new System.Drawing.Point(160, 19);
+            this.but_ecrire_sdf.Name = "but_ecrire_sdf";
+            this.but_ecrire_sdf.Size = new System.Drawing.Size(118, 54);
+            this.but_ecrire_sdf.TabIndex = 16;
+            this.but_ecrire_sdf.Text = "Ecrire SDF";
+            this.but_ecrire_sdf.UseVisualStyleBackColor = true;
+            this.but_ecrire_sdf.Click += new System.EventHandler(this.but_ecrire_sdf_Click);
             // 
             // FormMain
             // 
@@ -240,13 +367,24 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label_name_sdf;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button but_fusion;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tb_name_us;
+        private System.Windows.Forms.TextBox tb_desc_us;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tb_valdef_us;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Label label_max_char_us;
+        private System.Windows.Forms.Button but_ecrire_sdf;
     }
 }
 
