@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
+using System.IO;
 
 namespace SDF_Config
 {
@@ -18,6 +19,9 @@ namespace SDF_Config
 
         //Création de la List contenant les (object)userchannel à ajouter
         List<User_Channel> userlist_2 = new List<User_Channel> { };
+
+        //Création de la List contenant les (object)userchannel fusionné
+        List<User_Channel> userlist_3 = new List<User_Channel> { };
 
         //Creation de la base XML d'un user channel
         XElement xml_base =
@@ -207,9 +211,10 @@ namespace SDF_Config
 
             if (userlist.Count != 0 && userlist_2.Count != 0)
             {
-                userlist.AddRange(userlist_2);
+                userlist_3.AddRange(userlist);
+                userlist_3.AddRange(userlist_2);
 
-                foreach (User_Channel item in userlist)
+                foreach (User_Channel item in userlist_3)
                 {
                     listBox3.Items.Add(item.Name);
                 }
@@ -368,6 +373,9 @@ namespace SDF_Config
 
         }
 
+
+
+
         private void but_charg_f_Click(object sender, EventArgs e)
         {
             //Création et option de la boîte de dialogue pour l'ouverture du fichier .SDF
@@ -382,8 +390,125 @@ namespace SDF_Config
             {
                 //Ouverture de la boite de dialogue
                 sFileCSVNamePath = openFileDialog1.FileName;
+                
+                var contents = File.ReadAllText(sFileCSVNamePath).Split('\n');
+                foreach (var line in contents)
+                {
+                    if (line.Length > 0)
+                    {
+                        string[] csv_line = line.Split(';');
+                        userlist_2.Add(new User_Channel()
+                        {
+                            Name = csv_line[0],
+                            Description = csv_line[1],
+                            Valeur_Defaut = csv_line[2],
+                        });
+                    }
+
+                }
+
+                //Ajout à la listbox 
+                listBox2.Items.Clear();
+
+                foreach (User_Channel item in userlist_2)
+                {
+                    listBox2.Items.Add(item.Name);
+                }
 
 
+
+
+
+
+            }
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            listBox3.DrawMode = DrawMode.OwnerDrawFixed;
+
+            listBox3.DrawItem += new DrawItemEventHandler(listBox3_DrawItem);
+
+            label16.Visible = false;
+            label17.Visible = false;
+            label18.Visible = false;
+
+        }
+
+        private void listBox3_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            if (e.Index >= 0)
+            {
+                e.DrawBackground();
+
+                if (listBox3.Items[e.Index].ToString().Length > 40)
+                {
+                    using (SolidBrush solidBrush = new SolidBrush(Color.Red))
+                        e.Graphics.DrawString(listBox3.Items[e.Index].ToString(), e.Font, solidBrush, e.Bounds);
+                }
+                else
+                {
+                    using (SolidBrush solidBrush = new SolidBrush(Color.Black))
+                        e.Graphics.DrawString(listBox3.Items[e.Index].ToString(), e.Font, solidBrush, e.Bounds);
+                }
+                
+
+            }
+        }
+
+        private void but_debug_Click(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void but_eff_Click(object sender, EventArgs e)
+        {
+            listBox3.Items.Clear();
+            userlist_3.Clear();
+
+            label16.Visible = false;
+            label17.Visible = false;
+            label18.Visible = false;
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+
+        }
+
+        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label16.Visible = true;
+            label17.Visible = true;
+            label18.Visible = true;
+            
+            label16.Text = userlist_3[listBox3.SelectedIndex].Name;
+            label17.Text = userlist_3[listBox3.SelectedIndex].Description;
+            label18.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
+
+            textBox1.Text = userlist_3[listBox3.SelectedIndex].Name;
+            textBox2.Text = userlist_3[listBox3.SelectedIndex].Description;
+            textBox3.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength > 40)
+            {
+                textBox1.ForeColor = Color.Red;
+                label11.Visible = true;
+                string message;
+                message = "40 caractères maximum : " + textBox1.TextLength + "/40";
+                label11.Text = message;
+            }
+            else
+            {
+                textBox1.ForeColor = Color.Black;
+                label11.Visible = false;
+                label11.Text = "40 caractères maximum";
+                this.but_add_us.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+                this.but_add_us.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             }
         }
 
