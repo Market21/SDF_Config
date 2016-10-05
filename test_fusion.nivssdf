@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2015" Minor="0" Fix="0" Build="3" />
@@ -3591,846 +3591,846 @@
 						<Description>Channel utilisés pour les séquences Véristand</Description>
 						<Properties />
 						<Errors />
-						<Channel Name="P28V_PWR_Voltage_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description>Mesure de la tension d'alimentation</Description>
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Voltage_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description>Résultat du test de P28V_PWR_Voltage</Description>
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_1_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_1_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="T_Start_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description>Temps de démarrage du moteur mesuré</Description>
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="T_Start_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="T_Close_Door_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description>Temps de fermeture de la porte</Description>
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="T_Close_Door_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Sense_Rotation_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Sense_Rotation_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Overshoot_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Overshoot_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Overshoot_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_2_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_3_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_2_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Inrush_3_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Steady_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Steady_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Standby_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_Standby_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Overshoot_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Ripple_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Ripple_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Ripple_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Ripple_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Holding_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Holding_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Lifted_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Torque_Motor_Lifted_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="PBIT_Error_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Phase1_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Phase2_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Phase3_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="T_Door_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Ripple_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_Overshoot_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Acceleration_Rate_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Voltage_Close_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="PBIT_Error_Close_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_Before_Inter20_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_Before_Inter25_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_After_Inter20_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_After_Inter25_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_End_Closed_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description>Résultat du contrôle de la vitesse en fin de fermeture</Description>
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Speed_Motor_End_Closed_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Pos_Motor_Lifted_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_MAX_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="P28V_PWR_Current_MAX_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Pos_Motor_Lifted_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Pos_Motor_Close_End_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Pos_Motor_Close_End_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Maintien_Porte_Holding_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Maintien_Porte_Holding_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Porte_Holding_CBIT_CLOSE_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Porte_Holding_CBIT_CLOSE_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Porte_Hol_OPER_MODE_Damp_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Porte_Hold_OPER_MODE_Damp_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_After_Inter20_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_Before_Inter20_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_After_Inter25_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="CBIT_Oper_Mode_Before_Inter25_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_O_LOAD_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_Oper_Mode_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_Oper_Mode_Overload_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_O_LOAD_Overload_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_CLOSE_TO_rotor_bloque_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_CLOSE_TO_rotor_bloque_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_Oper_Mode_Rotor_Bloque_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_CBIT_Oper_Mode_Rotor_Bloque_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Tension_Alimentation_PAX" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_PAX_Attendue" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Profil_Porte" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Profil_Couple_Utilise" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Fermeture_Attendu" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Phase_1_Ouverture_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Phase_1_Ouverture_Second_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_2_Ouv_Scd_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_2_Ouv_Scd_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_2_Ouv_Scd_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_2_Ouv_Scd_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_Ouverture_Secondaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_Ouverture_Secondaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_1_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_1_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_1_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_1_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_2_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_OS_Phase_2_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_2_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Vitesse_Ripple_Phase_2_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_Ouverture_Primaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_Ouverture_Primaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Couple_Ouverture_Primaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Couple_Ouverture_Secondaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Ctrl_Descativation_Frein_Phase_2_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Ctrl_Descativation_Frein_Phase_2_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Sens_Rotation_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Sens_Rotation_Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Frein_P_1_Secondaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Frein_P_1_Secondaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Ctrl_Descativation_Frein_Phase_1_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Ctrl_Descativation_Frein_Phase_1_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_PAX__Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
-						<Channel Name="Temps_Reveil_PAX__Ouv_Second_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
-							<Description />
-							<Properties />
-							<Errors />
-							<DefaultValue>
-								<Elem>0</Elem>
-							</DefaultValue>
-						</Channel>
+					  <Channel Name="P28V_PWR_Voltage_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description>Mesure de la tension d'alimentation</Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Voltage_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description>Résultat du test de P28V_PWR_Voltage</Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_1_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_1_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="T_Start_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description>Temps de démarrage du moteur mesuré</Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="T_Start_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="T_Close_Door_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description>Temps de fermeture de la porte</Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="T_Close_Door_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Sense_Rotation_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Sense_Rotation_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Overshoot_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Overshoot_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Overshoot_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_2_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_3_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_2_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Inrush_3_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Steady_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Steady_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Standby_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_Standby_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Overshoot_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Ripple_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Ripple_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Ripple_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Ripple_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Holding_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Holding_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Lifted_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Torque_Motor_Lifted_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="PBIT_Error_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Phase1_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Phase2_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Phase3_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="T_Door_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Ripple_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_Overshoot_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Acceleration_Rate_Open_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Voltage_Close_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="PBIT_Error_Close_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_Before_Inter20_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_Before_Inter25_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_After_Inter20_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_After_Inter25_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_End_Closed_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description>Résultat du contrôle de la vitesse en fin de fermeture</Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Speed_Motor_End_Closed_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Pos_Motor_Lifted_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_MAX_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="P28V_PWR_Current_MAX_Close_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Pos_Motor_Lifted_Close_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Pos_Motor_Close_End_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Pos_Motor_Close_End_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Maintien_Porte_Holding_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Maintien_Porte_Holding_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Porte_Holding_CBIT_CLOSE_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Porte_Holding_CBIT_CLOSE_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Porte_Hol_OPER_MODE_Damp_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Porte_Hold_OPER_MODE_Damp_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_After_Inter20_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_Before_Inter20_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_After_Inter25_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="CBIT_Oper_Mode_Before_Inter25_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_O_LOAD_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_Oper_Mode_Overload_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_Oper_Mode_Overload_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_O_LOAD_Overload_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_CLOSE_TO_rotor_bloque_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_CLOSE_TO_rotor_bloque_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_Oper_Mode_Rotor_Bloque_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_CBIT_Oper_Mode_Rotor_Bloque_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Tension_Alimentation_PAX" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_PAX_Attendue" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Profil_Porte" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Profil_Couple_Utilise" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Fermeture_Attendu" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Phase_1_Ouverture_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Phase_1_Ouverture_Second_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_2_Ouv_Scd_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_2_Ouv_Scd_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_2_Ouv_Scd_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_2_Ouv_Scd_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_Ouverture_Secondaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_Ouverture_Secondaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_1_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_1_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_1_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_1_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_2_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_OS_Phase_2_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_2_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Vitesse_Ripple_Phase_2_Ouv_Prim_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_Ouverture_Primaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_Ouverture_Primaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Couple_Ouverture_Primaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Couple_Ouverture_Secondaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Ctrl_Descativation_Frein_Phase_2_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Ctrl_Descativation_Frein_Phase_2_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Sens_Rotation_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Sens_Rotation_Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Frein_P_1_Secondaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Frein_P_1_Secondaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Ctrl_Descativation_Frein_Phase_1_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Ctrl_Descativation_Frein_Phase_1_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_PAX__Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
+					  <Channel Name="Temps_Reveil_PAX__Ouv_Second_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+					    <Description></Description>
+					    <Properties />
+					    <Errors />
+					    <DefaultValue>
+					      <Elem />
+					    </DefaultValue>
+					  </Channel>
 					</Section>
 					<Channel Name="User Channel digital_indic" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
 						<Description />

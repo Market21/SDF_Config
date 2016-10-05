@@ -744,7 +744,95 @@
       <Elem />
     </DefaultValue>
   </Channel>
-  <Channel Name="trs" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+  <Channel Name="Couple_Ouverture_Primaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Couple_Ouverture_Secondaire" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Ctrl_Descativation_Frein_Phase_2_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Ctrl_Descativation_Frein_Phase_2_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Sens_Rotation_Ouv_Prim_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Sens_Rotation_Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Temps_Frein_P_1_Secondaire_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Temps_Frein_P_1_Secondaire_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Ctrl_Descativation_Frein_Phase_1_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Ctrl_Descativation_Frein_Phase_1_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Temps_Reveil_PAX__Ouv_Second_Result" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
+    <Description></Description>
+    <Properties />
+    <Errors />
+    <DefaultValue>
+      <Elem />
+    </DefaultValue>
+  </Channel>
+  <Channel Name="Temps_Reveil_PAX__Ouv_Second_Measured" TypeGUID="03D3B6C6-1485-13A6-56609EA3AE19E356" RowDim="1" ColDim="1" Units="" BitFields="7">
     <Description></Description>
     <Properties />
     <Errors />

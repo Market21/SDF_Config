@@ -67,7 +67,6 @@ namespace SDF_Config
             //Ouverture de la boite de dialogue
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                
                 sFileSDFNamePath = openFileDialog1.FileName;
                 
                 //Affichage du nom du ficher SDF
@@ -79,7 +78,6 @@ namespace SDF_Config
 		                label_name_sdf.Text = sFileSDFName[i];
 	                }
 			    }
-                
                 
                 //Chargement du fichier SDF
                 XElement xmtTree = XElement.Load(sFileSDFNamePath);
@@ -116,10 +114,7 @@ namespace SDF_Config
                 }
 
                 //Affichage des user channel dans la listbox
-                foreach (User_Channel item in userlist)
-                {
-                    listBox1.Items.Add(item.Name);
-                }
+                RefreshListBox(userlist, listBox1);
             }
         }
 
@@ -140,11 +135,7 @@ namespace SDF_Config
                     ColDim = "1",
                     Units = "",
                     BitFields = "7",
-
-
                 });
-
-
 
                 //Ajout à la listbox 
                 listBox2.Items.Clear();
@@ -208,18 +199,12 @@ namespace SDF_Config
         //Fusion des 2 list des user_channel
         private void but_fusion_Click(object sender, EventArgs e)
         {
-
             if (userlist.Count != 0 && userlist_2.Count != 0)
             {
                 userlist_3.AddRange(userlist);
                 userlist_3.AddRange(userlist_2);
-
-                foreach (User_Channel item in userlist_3)
-                {
-                    listBox3.Items.Add(item.Name);
-                }
+                RefreshListBox(userlist_3, listBox3);
             }
-
         }
 
         private void but_ecrire_sdf_Click(object sender, EventArgs e)
@@ -229,8 +214,6 @@ namespace SDF_Config
             //Création et option de la boîte de dialogue pour l'écriture du fichier .SDF
             saveFileSDF.Filter = "NIVSSDF Files|*.nivssdf";
             saveFileSDF.Title = "Select a SDF File";
-
-
 
             if (userlist.Count != 0)
             {
@@ -284,8 +267,6 @@ namespace SDF_Config
 
                         //Ajout de l'éléments complété dans le fichier SDF
                         userchannel.Add(channel);
-
-
                     }
 
                     //Sauvegarde du fichier créé
@@ -330,9 +311,7 @@ namespace SDF_Config
                                 {
                                     fichier_sdl_write.WriteLine(line_tab + line_fichier_user_channel);
                                 }
-
                             }
-
                         }
                         else if (b_deb_us == false)//Jusqu'au début du dossier report
                         {
@@ -351,30 +330,17 @@ namespace SDF_Config
                                 fichier_sdl_write.WriteLine(line);
                             }
                         }
-                        else
-                        { }
-
+                        else{ }                       
                     }
-
                     fichier_sdf_read.Close();
                     fichier_sdl_write.Close();
                     fichier_xml.Close();
-
-
                 }
                 else
                 {
-                }
-
-            
-            
-
-                }
-
+                }                
+            }
         }
-
-
-
 
         private void but_charg_f_Click(object sender, EventArgs e)
         {
@@ -385,41 +351,47 @@ namespace SDF_Config
 
             string sFileCSVNamePath;
 
-
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 //Ouverture de la boite de dialogue
                 sFileCSVNamePath = openFileDialog1.FileName;
-                
+
                 var contents = File.ReadAllText(sFileCSVNamePath).Split('\n');
                 foreach (var line in contents)
                 {
                     if (line.Length > 0)
                     {
                         string[] csv_line = line.Split(';');
-                        userlist_2.Add(new User_Channel()
+                        if (csv_line.Length == 1)
                         {
-                            Name = csv_line[0],
-                            Description = csv_line[1],
-                            Valeur_Defaut = csv_line[2],
-                        });
+                            userlist_2.Add(new User_Channel()
+                            {
+                                Name = csv_line[0],
+                                Description = " ",
+                                Valeur_Defaut = " ",
+                            });
+                        }
+                        if (csv_line.Length == 2)
+                        {
+                            userlist_2.Add(new User_Channel()
+                            {
+                                Name = csv_line[0],
+                                Description = csv_line[1],
+                                Valeur_Defaut = " ",
+                            });
+                        }
+                        if (csv_line.Length == 3)
+                        {
+                            userlist_2.Add(new User_Channel()
+                            {
+                                Name = csv_line[0],
+                                Description = csv_line[1],
+                                Valeur_Defaut = csv_line[2],
+                            });
+                        }
                     }
-
+                    RefreshListBox(userlist_2, listBox2);
                 }
-
-                //Ajout à la listbox 
-                listBox2.Items.Clear();
-
-                foreach (User_Channel item in userlist_2)
-                {
-                    listBox2.Items.Add(item.Name);
-                }
-
-
-
-
-
-
             }
         }
 
@@ -433,8 +405,10 @@ namespace SDF_Config
             label17.Visible = false;
             label18.Visible = false;
 
+            SetToolTips();
         }
 
+        //Colorise en rouge les noms de plus de 40 caractères
         private void listBox3_DrawItem(object sender, DrawItemEventArgs e)
         {
             if (e.Index >= 0)
@@ -450,18 +424,11 @@ namespace SDF_Config
                 {
                     using (SolidBrush solidBrush = new SolidBrush(Color.Black))
                         e.Graphics.DrawString(listBox3.Items[e.Index].ToString(), e.Font, solidBrush, e.Bounds);
-                }
-                
-
+                }               
             }
         }
 
-        private void but_debug_Click(object sender, EventArgs e)
-        {
-
-            
-        }
-
+        //Supprimer la list créée et nettoie la listbox
         private void but_eff_Click(object sender, EventArgs e)
         {
             listBox3.Items.Clear();
@@ -479,17 +446,7 @@ namespace SDF_Config
 
         private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            label16.Visible = true;
-            label17.Visible = true;
-            label18.Visible = true;
-            
-            label16.Text = userlist_3[listBox3.SelectedIndex].Name;
-            label17.Text = userlist_3[listBox3.SelectedIndex].Description;
-            label18.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
-
-            textBox1.Text = userlist_3[listBox3.SelectedIndex].Name;
-            textBox2.Text = userlist_3[listBox3.SelectedIndex].Description;
-            textBox3.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
+            RefreshUserChannelInfo();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -512,6 +469,120 @@ namespace SDF_Config
             }
         }
 
+        //Modifier
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength != 0 && textBox1.TextLength < 41)
+            {
+                userlist_3[listBox3.SelectedIndex].Name = textBox1.Text;
+                RefreshListBox(userlist_3, listBox3);              
+            }
+        }
 
+        private void RefreshListBox(List<User_Channel> userchannel, ListBox listbox)
+        {
+            int selected_item = listBox3.SelectedIndex;
+
+            
+            listbox.Items.Clear();
+            foreach (User_Channel item in userchannel)
+            {
+                listbox.Items.Add(item.Name);
+            }
+
+            if (selected_item == listbox.Items.Count)
+            {
+                selected_item = selected_item - 1;
+            }
+            listbox.SelectedIndex = selected_item;
+        }
+
+        private void RefreshUserChannelInfo()
+        {
+            label16.Visible = true;
+            label17.Visible = true;
+            label18.Visible = true;
+
+            label16.Text = userlist_3[listBox3.SelectedIndex].Name;
+            label17.Text = userlist_3[listBox3.SelectedIndex].Description;
+            label18.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
+
+            textBox1.Text = userlist_3[listBox3.SelectedIndex].Name;
+            textBox2.Text = userlist_3[listBox3.SelectedIndex].Description;
+            textBox3.Text = userlist_3[listBox3.SelectedIndex].Valeur_Defaut;
+        }
+
+        //Supprimmer
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listBox3.SelectedItem != null)
+            {
+                int selected_item = listBox3.SelectedIndex;
+                userlist_3.RemoveAt(selected_item);
+                RefreshListBox(userlist_3, listBox3);
+            }
+            else
+            {
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                label16.Text = "";
+                label17.Text = "";
+                label18.Text = "";
+            }
+        }
+
+        private void SetToolTips()
+        {
+            // Set up the delays for the ToolTip.
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip1.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip1.SetToolTip(groupBox1, "Charger un fichier NIVSSDF qui contient le dossier \"report\"");
+
+            // Set up the delays for the ToolTip.
+            toolTip2.AutoPopDelay = 5000;
+            toolTip2.InitialDelay = 1000;
+            toolTip2.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip2.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip2.SetToolTip(tabPage2, "Charger un fichier csv qui contient\nla liste des User Channel");
+
+            // Set up the delays for the ToolTip.
+            toolTip3.AutoPopDelay = 5000;
+            toolTip3.InitialDelay = 1000;
+            toolTip3.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip3.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip3.SetToolTip(but_fusion, "Fusionne la liste du fichier SDF\navec ceux du SDF ou \navec ceux entrés manuellement");
+
+            // Set up the delays for the ToolTip.
+            toolTip4.AutoPopDelay = 5000;
+            toolTip4.InitialDelay = 1000;
+            toolTip4.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip4.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip4.SetToolTip(but_eff, "Efface la liste fusionnée");
+
+            // Set up the delays for the ToolTip.
+            toolTip5.AutoPopDelay = 5000;
+            toolTip5.InitialDelay = 1000;
+            toolTip5.ReshowDelay = 500;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip5.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip5.SetToolTip(but_ecrire_sdf, "Crée un nouveau fichier SDF \navec la liste des User Channel");
+        }
     }
 }
